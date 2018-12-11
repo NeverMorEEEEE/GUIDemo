@@ -7,7 +7,7 @@ import subprocess
 lifeline = re.compile(r"(\d) received")
 report = ("No response", "Partial Response", "Alive")
 
-ip = '10.84.3.12';
+ip = '10.80.79.12';
 pingaling = subprocess.Popen(["ping", "-q", "-c 2", "-r", ip], shell=False, stdin=subprocess.PIPE,
                                  stdout=subprocess.PIPE)
 print("Testing ", ip)

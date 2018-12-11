@@ -3,15 +3,15 @@ import threading
 def hold1(limit):
     i=0
     while i<limit:
-        i+=1
-        print(t1.name,"is runing")
+        i += 1
+        print(t1.name,"is runing " + str(i))
         time.sleep(1)
     print(t1.name,"is over")
 def hold2(limit):
     i=0
     while i<limit:
         i+=1
-        print(t2.name,"is runing")
+        print(t2.name,"is runing " + str(i))
         time.sleep(1)
     print(t2.name,"is over")
 
